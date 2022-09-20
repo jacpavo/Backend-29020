@@ -36,6 +36,7 @@ class Container {
         await fs.promises.writeFile(this.file, JSON.stringify(newObj))
     }
 
+
     async deleteAll(){
         await fs.promises.writeFile(this.file, "[]")
     }
@@ -43,7 +44,13 @@ class Container {
 
 let container = new Container('products.txt')
 
-//container.save({ "name": "Tomate", "price": 10 })
+container.save({ name: "Tomate", price: 10, id: 1 })
+container.save({ name: "Pera", price: 20, id: 2})
+container.save({ name: "Kiwi", price: 30, id: 3 })
+container.save({ name: "Carambola", price: 40, id: 4 })
+container.save({ name: "Mango", price: 50, id: 5 })
+
+
 //container.getById(2)
 //container.deleteById(4)
 //container.deleteAll()
