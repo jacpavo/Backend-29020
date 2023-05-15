@@ -1,0 +1,50 @@
+[
+	{
+		"Marca": "Renault",
+		"Modelo": "Duster 1.3 Turbo",
+		"Precio": 27000,
+		"Thumbnail": "https://1.bp.blogspot.com/-n1EOq5rlG90/YHRNfBLyIAI/AAAAAAAAAPA/NUz2sUajdeUOz69o5ZNRhmy70K_URx2HgCLcBGAsYHQ/s681/Renault%2BDuster%2B2021%2BEcuador%2Bfayalsautos.png",
+		"Stock": 20,
+		"id": 1
+	},
+	{
+		"Marca": "Renault",
+		"Modelo": "Kwid Iconic",
+		"Precio": 14000,
+		"Thumbnail": "https://i0.wp.com/lared.com.ec/wp-content/uploads/2022/05/RenaultKwid.jpg?w=648&ssl=1",
+		"Stock": 7,
+		"id": 2
+	},
+	{
+		"Marca": "Ford",
+		"Modelo": "Ranger XLT",
+		"Precio": 56000,
+		"Thumbnail": "https://live.dealer-asset.co/images/br1109/product/paintSwatch/vehicle/ford-ranger-front-studio-arctic-white-060522-637873704651106630.jpg?s=1024",
+		"Stock": 3,
+		"id": 3
+	},
+	{
+		"Marca": "Peugeot",
+		"Modelo": "208 active",
+		"Precio": 20000,
+		"Thumbnail": "https://media.peugeot.com.ec/image/68/2/peugeot-208-2019-127-fr.819682.63.jpg?autocrop=1",
+		"Stock": 17,
+		"id": 4
+	},
+	{
+		"Marca": "DS",
+		"Modelo": "DS7 Crossback",
+		"Precio": 680000,
+		"Thumbnail": "https://www.dsautomobiles.com.ec/wp-content/uploads/2019/06/49074.252-1024x767.jpg",
+		"Stock": 3,
+		"id": 5
+	},
+	{
+		"Marca": "Renault",
+		"Modelo": "Duster 1.3 Turbo",
+		"Precio": 27000,
+		"Thumbnail": "https://1.bp.blogspot.com/-n1EOq5rlG90/YHRNfBLyIAI/AAAAAAAAAPA/NUz2sUajdeUOz69o5ZNRhmy70K_URx2HgCLcBGAsYHQ/s681/Renault%2BDuster%2B2021%2BEcuador%2Bfayalsautos.png",
+		"Stock": 20,
+		"id": 6
+	}
+]

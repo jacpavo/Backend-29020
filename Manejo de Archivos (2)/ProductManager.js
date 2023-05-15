@@ -1,10 +1,10 @@
 import fs from 'fs'
 
-const path = '/files/productos.json'
+const path = 'files/productos.json'
 
 export default class ProductManager {
     consultarProducto = async ()=>{
-        if(fs.existsSync ()){
+        if(fs.existsSync (path)){
             const data = await fs.promises.readFile(path, 'utf-8')
             console.log(data)
             const products = JSON.parse(data)
@@ -39,7 +39,7 @@ const env = async() =>{
         Thumbnail: "https://1.bp.blogspot.com/-n1EOq5rlG90/YHRNfBLyIAI/AAAAAAAAAPA/NUz2sUajdeUOz69o5ZNRhmy70K_URx2HgCLcBGAsYHQ/s681/Renault%2BDuster%2B2021%2BEcuador%2Bfayalsautos.png",
         Stock: 20
     }
-    let result = await product.crearProducto(product);
+    let result = await product.crearProductos(producto);
     console.log(result); 
     let segundaConsultaProductos = await product.consultarProducto();
     console.log(segundaConsultaProductos); 
